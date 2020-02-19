@@ -12,7 +12,7 @@ function  deleteFromObjectByKey(object, key){
 }
 function deleteFromObjectByKey(object, key)
 {
-  var =objObject.assign({},object)
+  var obj=Object.assign({},object)
   delete obj[key];
   return obj;
 }
