@@ -1,3 +1,4 @@
+var al={kosovo:"kl"};
 function updateObjectWithKeyAndValue(object,key,value){
   return Object.assign({},object,{[key]:value});
 }
@@ -11,7 +12,7 @@ function  deleteFromObjectByKey(object, key){
 }
 function deleteFromObjectByKey(object, key)
 {
-  var object=Object.assign({},object)
-  delete object.key;
+  Object.assign({},object)
+  delete object['key'];
   return object;
 }
